@@ -15,8 +15,17 @@
 
 function addCommas(num) {
   // This is your job. :)
+  var commaCount = 0;
+  let string = ',';
+  for (i = 0; i<batch.length; i++){
+    if (num[i] % 2 === 0){
+     commaCount++;
+    }
+   
 }
-
+return commaCount;
+}
+let num = 100200300;
 if (require.main === module) {
   console.log('Running sanity checks for addCommas:');
 
